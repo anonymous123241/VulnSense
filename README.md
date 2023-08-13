@@ -14,6 +14,8 @@ Each image is labeled as: "Label # - Predicted type by GPT-4.0". This helps in e
 
 ### Dataset Statistics
 
+We provide readers with detailed statistics of the dataset utilized in our experiments, including the number of instances for each class. The IDs of the classes designated as 'unseen' are highlighted in bold.
+
 | CWE-ID | instance numbers | CWE-ID | instance numbers |
 |-------|------------------|-------|------------------|
 | **CWE-78**  | 455            | CWE-369 | 484            |
