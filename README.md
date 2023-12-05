@@ -21,7 +21,7 @@ Each image is labeled with a consistent naming convention: "Serial Number . Labe
 
 We provide readers with detailed statistics of the dataset utilized in our experiments, including the number of instances for each class. The IDs of the classes designated as 'unseen' are highlighted in bold.
 
-| CWE-ID | instance numbers | CWE-ID | instance numbers |
+| CWE-ID | Instance numbers | CWE-ID | Instance numbers |
 |-------|------------------|-------|------------------|
 | **CWE-78**  | 455            | CWE-369 | 484            |
 | **CWE-90**  | 496            | CWE-400 | 515            |
