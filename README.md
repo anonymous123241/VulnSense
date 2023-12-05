@@ -1,18 +1,23 @@
 # VulnSense
 
-In this repository, we present 18 images showcasing instances of various vulnerability types. These images have been divided into two categories: the 'seen classes' and the 'unseen classes', based on their time of discovery.
+This repository presents our GPT-experiments and dataset statistics.
 
-Seen Classes:
-The first six images represent instances from seen classes. These have been randomly selected, encompassing two instances from each of three different vulnerability types that were discovered before 2021. It is assumed that these types are familiar or 'seen' as GPT-4.0 had been trained on extensive data up to that period.
 
-Unseen Classes:
-The latter six images signify instances from unseen classes. For these, we've sampled two instances from each of three vulnerability types discovered post-2021. While descriptions of vulnerabilities are omitted for the first half (six images), they are provided for the remaining six.
+## GPT-Experiments
+
+We present 18 images illustrating the classification of various vulnerability instances using the advanced GPT(The version of GPT used in our experiments is GPT-4, accessed on 8th August 2023.). These instances are categorized into two classes based on the time of their discovery: the "Seen Class" and the "Unseen Class."
+
+### Seen Classes:
+We randomly selected two instances from each of three randomly selected vulnerability types discovered before 2021, which are presumed to be part of seen classes, as GPT had been trained on extensive data up to that period. Notably, images with serial numbers 1 to 6 represent the results of experiments involving instances of the seen classes.
+
+### Unseen Classes:
+We further sampled two instances from each of three vulnerability types discovered after 2021, constituting the unseen classes. Images with serial numbers 7 to 18 represent the results of experiments involving instances from the unseen class. In images with serial numbers 7 to 12, vulnerability descriptions were not provided to GPT, while in images with serial numbers 13 to 18, vulnerability descriptions were provided to GPT.
 
 Image Naming Convention:
-Each image is labeled as: "Label # - Predicted type by GPT-4.0". This helps in easy identification and understanding of the vulnerability type that GPT-4.0 predicted for the given instance.
+Each image is labeled with a consistent naming convention: "Serial Number . Label # - GPT-4.0 Predicted Label."
 
 
-### Dataset Statistics
+## Dataset Statistics
 
 We provide readers with detailed statistics of the dataset utilized in our experiments, including the number of instances for each class. The IDs of the classes designated as 'unseen' are highlighted in bold.
 
