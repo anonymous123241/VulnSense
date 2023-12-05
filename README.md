@@ -5,7 +5,7 @@ This repository presents our GPT-experiments and dataset statistics.
 
 ## GPT-Experiments
 
-We present 18 images illustrating the classification of various vulnerability instances using the advanced GPT(The version of GPT used in our experiments is GPT-4, accessed on 8th August 2023.). These instances are categorized into two classes based on the time of their discovery: the "Seen Class" and the "Unseen Class."
+We show the results of 18 images, using GPT to classify various vulnerability instances (The version of GPT used in our experiments is GPT-4, accessed on 8th August 2023). These instances are categorized into two classes based on the time of their discovery: "Seen Class" and "Unseen Class."
 
 ### Seen Classes:
 We randomly selected two instances from each of three randomly selected vulnerability types discovered before 2021, which are presumed to be part of seen classes, as GPT had been trained on extensive data up to that period. Notably, images with serial numbers 1 to 6 represent the results of experiments involving instances of the seen classes.
@@ -13,7 +13,7 @@ We randomly selected two instances from each of three randomly selected vulnerab
 ### Unseen Classes:
 We further sampled two instances from each of three vulnerability types discovered after 2021, constituting the unseen classes. Images with serial numbers 7 to 18 represent the results of experiments involving instances from the unseen class. In images with serial numbers 7 to 12, vulnerability descriptions were not provided to GPT, while in images with serial numbers 13 to 18, vulnerability descriptions were provided to GPT.
 
-Image Naming Convention:
+### Image Naming Rules:
 Each image is labeled with a consistent naming convention: "Serial Number . Label # - GPT-4.0 Predicted Label."
 
 
